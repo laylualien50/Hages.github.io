@@ -1,0 +1,175 @@
+header{
+    background-color: white;
+    height: 100px;
+    position: relative;
+}
+.giohang{
+    float:right;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #0E1C22;
+    
+}
+.logo{
+    position: absolute;
+    left: 50px;
+}
+.bar{
+    position: absolute;
+    right: 400px;
+    top: 40px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}    
+button:hover{
+    background-color: red;
+}
+input{
+    width: 600px;
+    height: 30px;
+}
+/* nav{
+    
+    text-align: center;
+    font-variant: small-caps;
+    padding: top 10px;
+} */
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav>ul>li{
+margin-right: 40px;
+font-weight: bold;
+}
+nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+    display: block;  
+}
+nav>ul>li>a:hover{
+	color: orangered;
+	border-radius: 10px  
+}
+.nav li{
+    position: relative;
+}
+.sub-nav{
+    position: absolute;
+	background-color: orangered;
+	width: 75%;
+	list-style-type: none;
+	display: none;
+}
+.sub-nav>li{
+	padding: 0;
+	margin-left: -40px;
+}
+.sub-nav li:hover .sub-nav{
+	display: block;
+}
+.t1{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    margin-top: 100px; 
+}
+.text{
+    padding-left: 50px;
+    font-family: sans-serif;
+    font-size: large;
+}
+h5{
+    opacity: 70%;
+    font-size: 10pt;
+}
+h3{
+    font-size: 25pt;
+    color: red;
+}
+label{
+    width: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid rgba(14, 28, 34, 0.3);
+}
+label:not(.color) label.sp1{
+    background: url() no-repeat right bottom;
+}
+label:active{
+    border-width: 2px;
+    border-color: #0E1C22;
+    background: none !important; 
+}
+.size{
+    font-size: 15px;
+}
+.data .sp1{
+    float: left;
+    margin-right: 15px;
+}
+h6 a{
+    color: black;
+}
+.soluong .control{
+    width: 30px;
+    height: 20px;
+    float: right;
+    margin-right: 600px;
+}
+/* .cart{
+    margin: 0;
+    background: #d71c36;
+    color: #FFF;
+    border-color: #d71c36;
+    width: 200px;
+    height: 50px;
+    padding-right: 10px;
+    
+} */
+.cart a{
+    /* -webkit-appearance: none; */
+    border: 1px solid transparent;
+    position: relative;
+    line-height: 1.25;
+    padding: 0.62rem 1.5rem;
+    font-size: .9rem;
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    border-radius: 0.25rem;
+    transition: all .2s ease-in-out;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mota{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    margin-top: 50px; 
+}
+.chitiet{
+    padding: 0;
+    overflow: hidden;
+}
+footer{
+    text-align: center;
+    background-color: deepskyblue;
+    line-height: 50px;
+    color: black;
+    font-weight: bold;
+}
+footer .support{
+    text-decoration: none;
+    color: black;
+}
